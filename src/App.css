@@ -1,0 +1,16 @@
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.productCard {
+  height: 400px;
+  width: 300px;
+  text-align: center;
+}
+
+.productCard__title {
+  font-size: 24px;
+}
+.productCard__category {
+}
