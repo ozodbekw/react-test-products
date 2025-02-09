@@ -3,7 +3,7 @@ import { useState } from "react";
 import Title from "./components/Title";
 import Product from "./components/Product";
 import { useFetch } from "./hooks/useFetch";
-import './app.css'
+import "./App.css";
 
 function App() {
   // const data = useFetch("https://cdn.dummyjson.com/products");
@@ -89,7 +89,7 @@ function App() {
       <ul className="products-container">
         {products.map((product, index, arr) => {
           return (
-            <Product  product={product} key={product.id} deleteBtn={deleteBtn} />
+            <Product product={product} key={product.id} deleteBtn={deleteBtn} />
           );
         })}
       </ul>
