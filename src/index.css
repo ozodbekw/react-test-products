@@ -8,3 +8,11 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+html {
+  height: 100%;
+}
+body {
+  background-color: #fafaf5;
+  height: 100%;
+}

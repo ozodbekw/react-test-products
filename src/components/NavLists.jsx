@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function NavLists() {
   return (
-    <div className="bg-[#fafaf5] rounded-md mt-4 navbar mb-4">
+    <div className="bg-white rounded-md mt-4 navbar mb-4 px-6 py-[14px]">
       <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,28 +45,28 @@ function NavLists() {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link to="/ozbekiston">O'zbekiston</Link>
+              <Link className="font-bold" to="/ozbekiston">O'zbekiston</Link>
             </li>
             <li>
-              <Link to="/jahon">Jahon</Link>
+              <Link className="font-bold" to="/jahon">Jahon</Link>
             </li>
             <li>
-              <Link to="/iqtisodiyot">Iqtisodiyot</Link>
+              <Link className="font-bold" to="/iqtisodiyot">Iqtisodiyot</Link>
             </li>
             <li>
-              <Link to="/jamiyat">Jamiyat</Link>
+              <Link className="font-bold" to="/jamiyat">Jamiyat</Link>
             </li>
             <li>
-              <Link to="/sport">Sport</Link>
+              <Link className="font-bold" to="/sport">Sport</Link>
             </li>
             <li>
-              <Link to="/fanTehnika">Fan-texnika</Link>
+              <Link className="font-bold" to="/fanTehnika">Fan-texnika</Link>
             </li>
             <li>
-              <Link to="/nuqtayiNazar">Nuqtayi nazar</Link>
+              <Link className="font-bold" to="/nuqtayiNazar">Nuqtayi nazar</Link>
             </li>
             <li>
-              <Link to="/audio">Audio</Link>
+              <Link className="font-bold" to="/audio">Audio</Link>
             </li>
           </ul>
         </div>
@@ -110,28 +110,28 @@ function NavLists() {
       <div className="hidden navbar-center lg:flex">
         <ul className="px-1 menu menu-horizontal">
           <li>
-            <Link to="/ozbekiston">O'zbekiston</Link>
+            <Link className="font-bold" to="/ozbekiston">O'zbekiston</Link>
           </li>
           <li>
-            <Link to="/jahon">Jahon</Link>
+            <Link className="font-bold" to="/jahon">Jahon</Link>
           </li>
           <li>
-            <Link to="/iqtisodiyot">Iqtisodiyot</Link>
+            <Link className="font-bold" to="/iqtisodiyot">Iqtisodiyot</Link>
           </li>
           <li>
-            <Link to="/jamiyat">Jamiyat</Link>
+            <Link className="font-bold" to="/jamiyat">Jamiyat</Link>
           </li>
           <li>
-            <Link to="/sport">Sport</Link>
+            <Link className="font-bold" to="/sport">Sport</Link>
           </li>
           <li>
-            <Link to="/fanTehnika">Fan-texnika</Link>
+            <Link className="font-bold" to="/fanTehnika">Fan-texnika</Link>
           </li>
           <li>
-            <Link to="/nuqtayiNazar">Nuqtayi nazar</Link>
+            <Link className="font-bold" to="/nuqtayiNazar">Nuqtayi nazar</Link>
           </li>
           <li>
-            <Link to="/audio">Audio</Link>
+            <Link className="font-bold" to="/audio">Audio</Link>
           </li>
         </ul>
       </div>
