@@ -21,7 +21,7 @@ function App() {
     { path: "/fanTehnika", element: <FanTehnika /> },
     { path: "/nuqtayiNazar", element: <NuqtayiNazar /> },
     { path: "/audio", element: <Audio /> },
-    { path: "/*", element: <NotFound /> },
+    { path: "*", element: <NotFound /> },
   ]);
   return <RouterProvider router={routes} />;
 }
